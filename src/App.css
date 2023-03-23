@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.row {
+  display:flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 4px;
+  border: 1px solid gray;
+}
+
+.empty {
+  background-color: gray;
+}
+
+.mine {
+  background-color: red;
+}
+
+.container {
+  margin: 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.disabledBoard * {
+  pointer-events: none;
+}
+
+.settingsContainer {
+  margin: 20px 0;
+}
+
+.settingsContainer input {
+  margin: 0 16px 0 8px;
+}
